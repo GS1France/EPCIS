@@ -1,7 +1,6 @@
-# EPCIS
-Procédure de qualification des solutions de traçabilité au standard GS1 EPCIS
+# Procédure de qualification GS1 France des solutions de traçabilité au standard GS1 EPCIS
 
-Ce répertoire regroupe les fiches de tests permettant de vérifier la conformité d'une solution EPCIS 2.0.
+Ce répertoire regroupe les fiches de tests permettant de vérifier la conformité d'une solution au standard EPCIS 2.0.
 
 Les tests sont organisés en trois catégories :
 
