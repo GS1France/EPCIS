@@ -11,11 +11,11 @@ Validation de la capacité de la solution à intégrer un événement de type «
 - Le serveur de requêtes EPCIS est en cours d'exécution
 - La solution autorise les requêtes entrantes (authentification du client auprès de l’API)
 - Un document EPCIS au format JSON incluant un modèle d’événement de type « Transformation Event » est partagé avec l’éditeur. Ce document est constitué des attributs de données qui doivent obligatoirement être enregistrées dans un événement de type « Transformation Event ». A savoir :
-- Event type
-- eventTime
-- eventTimeZoneOffset
-- inputEPCList & inputQuantityList ET outputEPCList & outputQuantityList (si l’attribut TransformationID n’est pas renseigné)
-- inputEPCList & inputQuantityList OU outputEPCList & outputQuantityList (si l’attribut TransformationID est renseigné)
+  - Event type
+  - eventTime
+  - eventTimeZoneOffset
+  - inputEPCList & inputQuantityList ET outputEPCList & outputQuantityList (si l’attribut TransformationID n’est pas renseigné)
+  - inputEPCList & inputQuantityList OU outputEPCList & outputQuantityList (si l’attribut TransformationID est renseigné)
 
 ---
 
