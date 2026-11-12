@@ -13,47 +13,37 @@ Les tests sont organisés en trois catégories :
 
 ## A – Capture API
 
-| ID | Test |
-|---|---|
-| A-01 | [ObjectEvent](Capture-API/A-01-ObjectEvent.md) |
-| A-02 | [ObjectEvent – KO](Capture-API/A-02-ObjectEvent-KO.md) |
-| A-03 | [AssociationEvent](Capture-API/A-03-AssociationEvent.md) |
-| A-04 | [AssociationEvent – KO](Capture-API/A-04-AssociationEventKO.md) |
-| A-05 | [AggregationEvent](Capture-API/A-05-AggregationEvent.md) |
-| A-06 | [AggregationEvent – KO](Capture-API/A-06-AggregationEvent-KO.md) |
-| A-07 | [TransactionEvent](Capture-API/A-07-TransactionEvent.md) |
-| A-08 | [TransactionEvent – KO](Capture-API/A-08-TransactionEvent-KO.md) |
-| A-09 | [TransformationEvent](Capture-API/A-09-TransformationEvent.md) |
-| A-10 | [TransformationEvent – KO](Capture-API/A-10-TransformationEvent-KO.md) |
-| A-11 | [Multiple Events](Capture-API/A-11-Multiple-Events.md) |
-| A-12 | [Multiple Events – KO](Capture-API/A-12-Multiple-Events-KO.md) |
-| A-13 | [Trade Item Master Data](Capture-API/A-13-Trade-item-master-data.md) |
-| A-14 | [Location Master Data](Capture-API/A-14-Location-master-data.md) |
-| A-15 | [Business Transaction](Capture-API/A-15-BizTransaction.md) |
-| A-16 | [Source / Destination](Capture-API/A-16-Source-Destination.md) |
-| A-17 | [Quantity](Capture-API/A-17-Quantity.md) |
-| A-18 | [ILMD](Capture-API/A-18-ILMD.md) |
-| A-19 | [Extension Schema](Capture-API/A-19-Extension-schema.md) |
-
----
+- [A-01 – ObjectEvent](Fiches-de-tests/Capture-API/A-01-ObjectEvent.md)
+- [A-02 – ObjectEvent KO](Fiches-de-tests/Capture-API/A-02-ObjectEvent-KO.md)
+- [A-03 – AssociationEvent](Fiches-de-tests/Capture-API/A-03-AssociationEvent.md)
+- [A-04 – AssociationEvent KO](Fiches-de-tests/Capture-API/A-04-AssociationEventKO.md)
+- [A-05 – AggregationEvent](Fiches-de-tests/Capture-API/A-05-AggregationEvent.md)
+- [A-06 – AggregationEvent KO](Fiches-de-tests/Capture-API/A-06-AggregationEvent-KO.md)
+- [A-07 – TransactionEvent](Fiches-de-tests/Capture-API/A-07-TransactionEvent.md)
+- [A-08 – TransactionEvent KO](Fiches-de-tests/Capture-API/A-08-TransactionEvent-KO.md)
+- [A-09 – TransformationEvent](Fiches-de-tests/Capture-API/A-09-TransformationEvent.md)
+- [A-10 – TransformationEvent KO](Fiches-de-tests/Capture-API/A-10-TransformationEvent-KO.md)
+- [A-11 – Multiple Events](Fiches-de-tests/Capture-API/A-11-Multiple-Events.md)
+- [A-12 – Multiple Events KO](Fiches-de-tests/Capture-API/A-12-Multiple-Events-KO.md)
+- [A-13 – Trade Item Master Data](Fiches-de-tests/Capture-API/A-13-Trade-item-master-data.md)
+- [A-14 – Location Master Data](Fiches-de-tests/Capture-API/A-14-Location-master-data.md)
+- [A-15 – BizTransaction](Fiches-de-tests/Capture-API/A-15-BizTransaction.md)
+- [A-16 – Source / Destination](Fiches-de-tests/Capture-API/A-16-Source-Destination.md)
+- [A-17 – Quantity](Fiches-de-tests/Capture-API/A-17-Quantity.md)
+- [A-18 – ILMD](Fiches-de-tests/Capture-API/A-18-ILMD.md)
+- [A-19 – Extension Schema](Fiches-de-tests/Capture-API/A-19-Extension-schema.md)
 
 ## B – Query API
 
-| ID | Test |
-|---|---|
-| B-01 | [Standard Version](Query-API/B-01-StandardVersion.md) |
-| B-02 | [Get Events](Query-API/B-02-Get-Events.md) |
-| B-03 | [Exceptions](Query-API/B-03-Exceptions.md) |
-
----
+- [B-01 – Standard Version](Fiches-de-tests/Query-API/B-01-StandardVersion.md)
+- [B-02 – Get Events](Fiches-de-tests/Query-API/B-02-Get-Events.md)
+- [B-03 – Exceptions](Fiches-de-tests/Query-API/B-03-Exceptions.md)
 
 ## C – Subscriptions API
 
-| ID | Test |
-|---|---|
-| C-01 | [Requête nommée](Subscriptions-API/C-01-Requête-Nommée.md) |
-| C-02 | [Exécution d'une requête nommée](Subscriptions-API/C-02-Exécution-Requête-Nommée.md) |
-| C-03 | [Création d'une souscription](Subscriptions-API/C-03-Création-Souscription.md) |
-| C-04 | [Suppression d'une souscription](Subscriptions-API/C-04-Suppression-Souscription.md) |
-| C-05 | [Souscription – KO](Subscriptions-API/C-05-Souscription-KO.md) |
-| C-06 | [Suppression d'une requête nommée](Subscriptions-API/C-06-Suppression-Requête-Nommée.md) |
+- [C-01 – Requête nommée](Fiches-de-tests/Subscriptions-API/C-01-Requête-Nommée.md)
+- [C-02 – Exécution d'une requête nommée](Fiches-de-tests/Subscriptions-API/C-02-Exécution-Requête-Nommée.md)
+- [C-03 – Création d'une souscription](Fiches-de-tests/Subscriptions-API/C-03-Création-Souscription.md)
+- [C-04 – Suppression d'une souscription](Fiches-de-tests/Subscriptions-API/C-04-Suppression-Souscription.md)
+- [C-05 – Souscription KO](Fiches-de-tests/Subscriptions-API/C-05-Souscription-KO.md)
+- [C-06 – Suppression d'une requête nommée](Fiches-de-tests/Subscriptions-API/C-06-Suppression-Requête-Nommée.md)
