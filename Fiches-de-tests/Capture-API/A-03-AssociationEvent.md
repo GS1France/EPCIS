@@ -22,18 +22,6 @@ Validation de la capacité de la solution à intégrer un événement de type «
 
 ### Étapes de test
 
-#### Étape 1
-
-**Description**
-
-Envoi d’un document EPCIS incluant un événement « Association Event » conforme au standard EPCIS
-
-Exemple :
-
-POST https://my-system.example.com/epcis/capture avec un Association Event conforme.
-
-**Résultats attendus**
-
-L’événement constitué de l’ensemble des attributs de données est enregistré par la solution.
-
-Le serveur retourne un code de statut de réponse de succès HTTP.
+| Étape | Description de l’étape | Résultats attendus |
+|:---:|---|---|
+| **1** | Envoi d’un document EPCIS incluant un événement « Association Event » conforme au standard EPCIS<br><br>Exemple :<br><br>POST https://my-system.example.com/epcis/capture avec un Association Event conforme. | L’événement constitué de l’ensemble des attributs de données est enregistré par la solution.<br><br>Le serveur retourne un code de statut de réponse de succès HTTP. |
