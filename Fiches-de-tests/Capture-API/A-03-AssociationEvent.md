@@ -11,12 +11,12 @@ Validation de la capacité de la solution à intégrer un événement de type «
 - Le serveur de requêtes EPCIS est en cours d'exécution
 - La solution autorise les requêtes entrantes (authentification du client auprès de l’API)
 - Un document EPCIS au format JSON incluant un modèle d’événement de type « Association Event » est partagé avec l’éditeur. Ce document est constitué des attributs de données qui doivent obligatoirement être enregistrées dans un événement de type « Association Event ». A savoir :
-- Event type
-- eventTime
-- eventTimeZoneOffset
-- Action
-- ParentID
-- childEPCs et/ou childQuantityList (sauf si la valeur de l’attribut action est DELETE) avec en valeur un ou des identifiant(s) GS1 en syntaxe GS1 Digital Link URI ou EPC URN
+  - Event type
+  - eventTime
+  - eventTimeZoneOffset
+  - Action
+  - ParentID
+  - childEPCs et/ou childQuantityList (sauf si la valeur de l’attribut action est DELETE) avec en valeur un ou des identifiant(s) GS1 en syntaxe GS1 Digital Link URI ou EPC URN
 
 ---
 
