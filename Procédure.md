@@ -45,12 +45,11 @@ La qualification est opérée par GS1 France de la manière suivante :
    - GS1 France fourni au candidat :
      - Un exemple de document EPCIS incluant des attributs de données relatives à un produit
    - Le candidat fourni à GS1 France :
-     - L’URL de l’IHM et un compte utilisateur à sa solution
      - Les informations nécessaires pour utiliser les APIs de sa solution (URLs de capture et de requête, mode d’authentification, etc.)
 
 3. GS1 France procède à des tests de connexion à l’API de la solution candidate via un client web d’API.
 
-4. Lorsque la connexion à la solution candidate est validée, GS1 France opère les tests décrits dans les fiches de tests (cf. XX).
+4. Lorsque la connexion à la solution candidate est validée, GS1 France opère les tests décrits dans les fiches de tests.
 
 5. GS1 France transmet au candidat le rapport des tests réalisés en indiquant les non-conformités constatées.
 
